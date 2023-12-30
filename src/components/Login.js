@@ -36,11 +36,11 @@ const Login = (props) => {
         <form className="container m-4" onSubmit={handleClick}>
             <div className="mb-3">
                 <label htmlFor="email" className="form-label">Email address</label>
-                <input type="email" className="form-control" id="email" name="email" value={credentials.email} onChange={onChange} aria-describedby="emailHelp" />
+                <input type="email" className="form-control" id="email" name="email"  onChange={onChange} aria-describedby="emailHelp" />
             </div>
             <div className="mb-3">
                 <label htmlFor="password" className="form-label">Password</label>
-                <input type="password" className="form-control" name="password"onChange={onChange} id="password" />
+                <input type="password" className="form-control" name="password" onChange={onChange} id="password" />
             </div>
             <button type="submit" className="btn btn-primary" >Submit</button>
         </form>
